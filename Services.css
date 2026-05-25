@@ -1,0 +1,591 @@
+/* body{
+    margin-top: 20px;
+} */
+*{
+    box-sizing: border-box;
+}
+.background{
+    background-color: black;
+    padding-top: 7%;
+    padding-left: 15px;
+    height: 300px;
+    /* position: fixed; */
+    /* position: relative; */
+    /* position: absolute; */
+    
+}
+.m-top{
+    display: none;
+}
+#top_side{
+    float: right;
+    padding-right: 10%;
+    
+}
+button#button1{
+    border: none;
+    background-color: orangered;
+    color: white;
+    padding: 15px 0;
+    width: 55px;
+    margin-right: 10px;
+}
+#btn{
+    float: right;
+    border: none;
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    margin-right: 10px;
+    width: 200px;
+}
+.black{
+    border: none;
+    background-color: black;
+    color: white;
+    float: right;
+   padding:0 10px ;
+   /* transform: rotate(20deg); */
+   margin-left: 10px;
+   justify-content: center;
+    align-items: center;
+   
+}
+/* .box{
+    background-color: orangered;
+    width: 200px;
+    border: none;
+    padding: 10px 15px;
+} */
+/* .box-1{
+    color: black;
+    float: left;
+    margin-top: 5px;
+
+}
+.box-2{
+    background-color: black;
+    width:40px;
+    color: white;
+    float: right;
+    padding: 5px 0;
+} */
+.ar{
+    transform: rotate(-45deg);
+}
+/* .box:hover{
+    background-color: white;
+} */
+/* .box-1:hover{
+    background-color: white;
+    color: black;
+} */
+.ar:hover{
+    transform: rotate(0deg);
+    transition: 1s;
+}
+
+
+/* .black1{
+    color: white;
+    /* display:; 
+
+}
+.black1:hover{
+    animation: animate 1s;
+    color: lime;
+
+} */
+#btn:hover{
+    background-color: white;
+    color: black;
+}
+/* .black:hover{
+    transform: rotate(45deg);
+    transition: 1s;
+    /* background-color: lime; 
+} */
+/* @keyframes animate{
+    100%{
+        transform: rotate(45deg);
+    }
+} */
+ul.dropdown{
+    display: flex;
+    /* display: block; */
+    /* float: left; */
+    /* justify-content: center; */
+    /* margin-top: 100px; */
+    list-style-type: none;
+    /* text-decoration: overline; */
+}
+.dropdown-toggle,.dt{
+    display: block;
+    /* padding: 0 25px; */
+    font-size: 1.2rem;
+    width: 130px;
+    text-decoration: none;
+    /* text-decoration: overl; */
+    color: white;
+}
+.dropdown-toggle:hover,.dt:hover{
+    color: orangered;
+    text-decoration: overline 2px;
+    transition: 1ss ;
+}
+.home{
+    list-style-type: none;
+    display: none;
+}
+.dropdown li:nth-child(1):hover .home {
+    display: block;
+    text-decoration: none;
+} 
+.page{
+    list-style-type: none;
+    display: none;
+}
+.dd{
+    /* height: 10px; */
+    text-decoration: none;
+    margin-left: -30px;
+    font-size: 15px;
+    color: white;
+    line-height: 50px;
+    background-color:black;
+    display: block;
+    padding-left: 5px;
+    /* z-index: 100; */
+}
+.dd:hover{
+    color: orangered;
+    list-style-type: square;
+}
+.dropdown li:nth-child(2):hover .page {
+    display: block;
+}
+.services{
+    list-style-type: none;
+    display: none;
+    /* width: 20px; */
+}
+.dropdown li:nth-child(3):hover .services {
+    display: block;
+}
+.project{
+    list-style-type: none;
+    display: none;
+}
+.dropdown li:nth-child(4):hover .project {
+    display: block;
+}
+.blogs{
+    list-style-type: none;
+    display: none;
+}
+.dropdown li:nth-child(5):hover .blogs {
+    display: block;
+}
+.dd1:hover{
+    color: orangered;
+}
+#org{
+    background-color: orangered;
+    /* position: absolute; */
+    /* position: relative; */
+    /* margin-top: 350px; */
+    /* opacity: 0.1; */
+    
+}
+#col-6{
+  margin-top: 100px;
+  padding-left: 25px;
+  color: white;
+}
+#col{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.button2{
+    border: none;
+    background-color: black;
+    color: white;
+    width: 250px;
+    padding: 10px 0;
+}
+#button3-a{
+    /* background-color: black; */
+    color: white;
+    height: 60px;
+    width: 60px;
+    margin-top:50%;
+    margin-left: 5%;
+    background-color: black;
+}
+#col1{
+    /* float: left;    */
+    padding: O;
+    background-color: white;
+}
+#button3-b{
+    /* background-color: black; */
+    color: white;
+    height: 60px;
+    width: 60px;
+    margin-top:50%;
+    margin-right: 77%;
+    background-color: black;
+}
+#button3-a:hover{
+    background-color: orangered;
+}
+#button3-b:hover{
+    background-color: orangered;
+}
+.para{
+    margin-top: 40px;
+    /* text-align: justify; */
+    /* line-height: 30px; */
+}
+.right{
+    /* float: right;
+    padding-right: 40px; */
+    list-style-type: square;
+}
+.left{
+    list-style-type: square;
+    /* float: left; */
+}
+#cul{
+    border: solid black 1px;
+}
+#cul-btn1{
+    border: 1px solid;
+    /* width: 245px; */
+    width: 33%;
+    margin-left: 4px;
+    padding: 10px 0;
+}
+#cul-btn2{
+    border: 1px solid;
+    /* width: 245px; */
+    width: 33%;
+
+    margin-left: -4px;
+    padding: 10px 0;
+
+}
+#cul-btn3{
+    border: 1px solid;
+    /* width: 245px; */
+    width: 33%;
+    margin-left: -5px;
+    padding: 10px 0;
+
+}
+
+#cul-btn1:hover{
+    border: none;
+    background-color: white;
+}
+#cul-btn2:hover{
+    border: none;
+    background-color: white;
+}
+#cul-btn3:hover{
+    border: none;
+    background-color: white;
+}
+/* #cul-btn1:active{
+    border: none;
+    background-color: white;
+} */
+.solution1{
+    list-style-type: square;
+    padding-left: 60px;
+}
+.org-left{
+    list-style-type: none ;
+}
+#col12{
+    display: flex;
+}
+.p1{
+    width: 20%;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.cls2{
+    width: 20%;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.cls3{
+    width: 35%;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.yt{
+    background-image:url(vimg.jpg) ;
+    background-size: 100%;
+    /* width: 100%;width: 700px; */
+    background-repeat: no-repeat;
+    padding: 15% 0;
+}
+.yt-btn{
+    background-color: transparent;
+    color:black ;
+    border: none;
+    /* width: 100%; */
+    /* height: 100%; */
+    /* padding: 10px 20px; */
+}
+#play{
+    background-color: white;
+    padding: 10px 15px;
+    color: black;
+    /* width: 30px; */
+}
+.js-btn1{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 0 10px 20px ;
+    text-align: left;
+    width: 100%;
+}
+/* .js-btn1:hover{
+    background-color: orangered;
+} */
+#add1-1,#add2-1,#add3-1,#add4-1{
+    float: right;
+    background-color: #1e2023;
+    padding: 5px 10px ;
+    /* font-size: 30px; */
+    margin-right: 10px;
+}
+#add1-2,#add2-2,#add3-2,#add4-2{
+    float: right;
+    background-color: #1e2023;
+    padding: 5px 10px ;
+    /* font-size: 30px; */
+    margin-right: 10px;
+    display: none;
+    /* visibility: hidden; */
+}
+#demo1,#demo2,#demo3,#demo4 { 
+    /* background-color: whitesmoke; */
+    border: solid 1px;
+    /* padding: 10px 20px 10px 20px; */
+    padding: 0 30px;
+    font-size: 15px;
+    /* margin-top: 0; */
+    /* margin: 20px; */
+}
+#col2{
+    /* position: sticky;
+    top: 70px; */
+    /* float: right; */
+    background-color: white;
+}
+table,th,td{
+    border:  solid black 1px;
+    width: 100%;
+}
+th{
+    padding: 15px 0 15px 20px;
+    background-color: black;
+    color: white;
+}
+td{
+    padding: 15px 0 15px 20px;
+}
+td:hover{
+    background-color: orangered;
+    color: white;
+    border: solid black 1px;
+    /* text-decoration: line-through'; */
+}
+.icons,.fbtn{
+    border: solid black 1px;
+}
+.itop,.ftop{
+    background-color: black;
+    color: white;
+    padding: 10px 0 5px 20px;
+
+}
+.idata{
+    /* line-height: 55%; */
+    padding: 20px 0 0 30px;
+}
+.fdata{
+    /* line-height: 55%; */
+    padding: 20px 20px 20px 30px;
+}
+.fdata-btn1,.fdata-btn2{
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 10px 10px 10px 20px;
+    /* width: ; */
+}
+.fdata-btn1:hover,.fdata-btn2:hover{
+    background-color: black;
+    color: white;
+}
+.black1{
+    border: none;
+    background-color: black;
+    color: white;
+    float: right;
+   padding:0 10px ;
+   /* transform: rotate(20deg); */
+   margin-left: 10px;
+   justify-content: center;
+    align-items: center;
+   
+}
+.black1:hover,.black2:hover{
+    background-color: white;
+    color: black;
+}
+.contact{
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+}
+.cbot{
+    width: 100%;
+    border: none;
+    background-color: orangered;
+    color: white;
+    padding: 15px 0;
+    /* line-height: 10px; */
+}
+.footer{
+    background-color: black;
+}
+.ffst{
+    /* background-color: black; */
+    color: white;
+    padding: 100px 400px 0 50px;
+}
+.f-btn1{
+    border: none;
+    background-color: orangered;
+    color: white;
+    padding: 15px 10px 15px 30px;
+}
+.f-btn1:hover{
+    background-color: white;
+    color: black;
+}
+.f-btn2{
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 15px 10px 15px 30px;
+    margin-left: 15px;
+}
+.f-btn2:hover{
+    background-color: orangered;
+    color: white;
+}
+.fnar{
+    display: flex;
+    list-style-type: none;
+    padding: 0 0 0 50px;
+    /* width: 10%; */
+
+}
+.flink{
+    text-decoration: none;
+    color: white;
+    /* padding: 0 15px; */
+    margin-right: 35px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.flink:hover{
+    color: white;
+}
+
+.flink::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -52px;
+    width: 0;
+    height: 2px; /* Thickness of the underline */
+    background-color: orangered; /* Color of the underline */
+    transition: width 0.3s ease; /* Animation transition */
+}.flink:hover::after{
+    width: 100%;
+}
+.f-btns{
+    margin-top: 60px;
+}
+.f-btns-1{
+    background-color: #2E3033;
+    padding: 10px 0;
+    opacity: 0.5;
+    width: 50px ;
+}
+.f-link{
+    color: white;
+}
+.f-btns-1:hover{
+    background-color: orangered;
+    opacity: 1;
+}
+#fcol2,#fcol3{
+    color: white;
+}
+#mail{
+    width: 300px;
+    padding: 10px 0;
+}
+/* .f-label{
+    padding: 10px;
+    
+} */
+#l-btn{
+    /* background-color:white; */
+    /* padding: 10px 0; */
+    /* width: 40px; */
+    transform: rotate(-45deg);
+    color: white;
+    /* border: white solid 3px; */
+    /* text-align: right; */
+    /* float: right; */
+}
+#l-btn:hover{
+    transform: rotate(0deg);
+    transition: 1s;
+}
+#f-row{
+    padding: 0 50px;
+}
+.hr{
+    color: white;
+    margin: 50px;
+}
+.sub{
+    border: none;
+    width: 40px;
+    margin-left: -50px;
+    height: 40px;
+    background-color:black;
+}
+.sub:hover{
+    background-color: orangered;
+}

@@ -1,0 +1,134 @@
+body{
+    display: none;
+}
+@media screen and (max-width:420px){
+    body{
+        display: inline;
+        background-color: transparent;
+    }
+    .top{
+        margin-top: 40px;
+    }
+    .img1{
+        margin-left: 35px;
+    }
+    #search{
+        border: none;
+        margin-left: 35px;
+        background-color: #f8f8f8;
+        border-radius: 25px;
+        padding: 10px 15px;
+        width: 300px;
+    }
+    .btns{
+        border: none;
+        background-color: white;
+    }
+    ul.dropdown{
+        list-style-type: none;
+        display: block;
+    }
+    li{
+        /* background-color: #f8f8f8; */
+        width: 90%;
+        
+        /* margin: 20px 0; */
+    }
+    a{
+       text-decoration: none;
+       color: black;
+       font-size: 15px;
+       padding: 10px 20px;
+    }
+    a:hover{
+        color: orangered;
+    }
+    .dd:hover{
+        color: orangered;
+    }
+    .home,.page,.services,.project,.blogs{
+        list-style-type: none;
+        display: none;
+    }
+    .dropdown li:nth-child(1):hover .home{
+        display: block;
+    }
+    .dropdown li:nth-child(2):hover .page{
+        display: block;
+    }
+    .dropdown li:nth-child(3):hover .services{
+        display: block;
+    }
+    .dropdown li:nth-child(4):hover .project{
+        display: block;
+    }
+    .dropdown li:nth-child(5):hover .blogs{
+        display: block;
+    }
+}
+@media screen and (max-width:820px){
+    body{
+        display: inline;
+        background-color: transparent;
+        width: 420px;
+    }
+    .top{
+        margin-top: 40px;
+    }
+    .img1{
+        margin-left: 35px;
+    }
+    #search{
+        border: none;
+        margin-left: 35px;
+        background-color: #f8f8f8;
+        border-radius: 25px;
+        padding: 10px 15px;
+        width: 300px;
+    }
+    .btns{
+        border: none;
+        background-color: white;
+    }
+    ul.dropdown{
+        list-style-type: none;
+        display: block;
+    }
+    li{
+        /* background-color: #f8f8f8; */
+        width: 90%;
+        
+        /* margin: 20px 0; */
+    }
+    a{
+       text-decoration: none;
+       color: black;
+       font-size: 15px;
+       padding: 10px 20px;
+    }
+    a:hover{
+        color: orangered;
+    }
+    .dd:hover{
+        color: orangered;
+    }
+    .home,.page,.services,.project,.blogs{
+        list-style-type: none;
+        display: none;
+    }
+    .dropdown li:nth-child(1):hover .home{
+        display: block;
+    }
+    .dropdown li:nth-child(2):hover .page{
+        display: block;
+    }
+    .dropdown li:nth-child(3):hover .services{
+        display: block;
+    }
+    .dropdown li:nth-child(4):hover .project{
+        display: block;
+    }
+    .dropdown li:nth-child(5):hover .blogs{
+        display: block;
+    }
+}
